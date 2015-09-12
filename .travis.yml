@@ -1,0 +1,12 @@
+#
+# More configuration info at:  http://docs.travis-ci.com/user/languages/r/
+
+
+language: r
+sudo: required
+
+before_script:
+  - Rscript -e "devtools::document()"
+
+## would be nice to uncomment the following...
+# warnings_are_errors: true

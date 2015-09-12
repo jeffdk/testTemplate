@@ -1,0 +1,14 @@
+Package: testTemplate
+Title: Generic Title from rPackageTemplate
+Version: 0.0.0.9000
+Authors@R: person("Jeff", "Kaplan", , "jeffreydkaplan@gmail.com", role = c("aut",     "cre"))
+Author: Jeff Kaplan  <jeffreydkaplan@gmail.com>
+Maintainer: Jeff Kaplan  <jeffreydkaplan@gmail.com>
+Description: Generic Description from rPackageTemplate
+Depends: R (>= 3.1.2)
+License: Proprietary.  Property of author and/or author's employer at inception.
+Suggests:
+    devtools,
+    roxygen2,
+    testthat
+LazyData: true
